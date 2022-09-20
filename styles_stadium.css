@@ -1,7 +1,11 @@
 body {
+    
+    /* width: 75vw; */
     display: flex;
     flex-direction: column;
     background-color: rgb(196, 188, 188);
+    margin: 3;
+    padding: 0;
 }
 .logo  {
     font-size: 2em;
@@ -30,6 +34,8 @@ body {
 }
 .details-title {
 display: block;
+font-size: 3vw;
+margin-top: 100;
 
 }
 .thumbnails-list {
@@ -44,14 +50,19 @@ display: block;
     padding-left: 0;
     border: solid 1px rgb(44, 3, 3);
     
+    
 
 }
 .thumbnails-item {
+    display: flex;
     border-radius: 25%;
-    width: 20vw;
-    height: 20vw;
+    width: 28vw;
+    height: 28vw;
     margin-top: 2.5vh;
-    border: solid red;
+    border: solid 2px red;
+    margin-top: 5px;
+    overflow:hidden ;
+
     
     
     
@@ -59,8 +70,8 @@ display: block;
 
 }
 .thumbnails-image {
-    width: 20vw;
-    height: 15vw;
+    width: 28vw;
+    height: 24vw;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
     
@@ -73,12 +84,13 @@ display: block;
     background-color: rgb(8, 8, 8);
     color: aliceblue;
     margin-top: -4px;
-    width: 20vw;
+    width: 28vw;
     /* height: 10vw; */
-    overflow: auto;
+    /* overflow: auto; */
     /* border-bottom: 25%; */
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    font-size: 3vw;
     
 }
 .thumbnails-anchor {
